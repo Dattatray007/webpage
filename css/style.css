@@ -1,0 +1,22 @@
+*{margin: 0;padding:0;}
+.body
+{background-image: url(../img/187170.jpg);background-size:cover; height: 100vh;}
+
+.main
+{display: flex;align-items: center;margin: 10px;border-width: 10px;justify-content: center;display: inline-block;height: auto;text-align: center;justify-items: center;width: 97%;}
+
+.shree
+{display: flex;align-items: center;justify-content: center;padding: 20px;font-weight: bolder;font-size: 6vmin ;color: red}
+
+header{color: black ;margin: 10px;padding: 10px;font-size: 1.5rem;}
+.olt, .mikro{margin: 15px;border-radius: 12px; font-size: 1rem;  animation: mymove 5s infinite;}
+
+.olt a:link, .olt a:visited{display: inline-flex;justify-content: center;padding:5px 15PX;margin: 5px;background-color: rgba(255, 255, 255, .2);width: 110px;border-radius: 5px;transition-duration: 0.6s;border: solid #008CBA 2px;text-decoration: none;color: black;}
+.mikro a:link, .mikro a:visited{display: inline-flex;justify-content: center;padding:5px 15px;margin: 10px;background-color:rgba(255, 255, 255, .2);width: 110px;border-radius: 5px;transition-duration: 0.6s;border: solid #f44336 2px;color: black;text-decoration: none;}
+.olt a:hover, .olt a:active  {background-color:#008CBA;color: white;}
+.mikro a:hover, .mikro a:active{background-color:#f44336;color: white;}
+
+@media screen and (max-width: 350px) { p{ font-size: 1.50em;} }
+/* 
+@keyframes mymove { from {border-color: rgb(255, 94, 0);}
+    to {border-color:rgb(255, 0, 119);}  } */
